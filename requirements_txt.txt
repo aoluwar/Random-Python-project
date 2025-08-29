@@ -1,0 +1,102 @@
+# Core Computer Vision and Machine Learning Libraries
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+
+# Image Processing and Augmentation
+numpy==1.24.3
+Pillow==10.0.0
+scikit-image==0.21.0
+albumentations==1.3.1
+
+# Data Science and Analysis
+pandas==2.0.3
+scikit-learn==1.3.0
+scipy==1.11.1
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+
+# Deep Learning Utilities
+timm==0.9.7
+torchmetrics==1.0.3
+tensorboard==2.14.0
+
+# Computer Vision Specific
+ultralytics==8.0.165  # For YOLO models
+detectron2==0.6  # Facebook's object detection library (optional)
+
+# Image and Video Processing
+imageio==2.31.1
+imageio-ffmpeg==0.4.8
+av==10.0.0  # For video processing
+
+# Geometric and Mathematical Operations
+shapely==2.0.1
+pyproj==3.6.0  # For coordinate transformations
+
+# GUI and Visualization (Optional)
+tkinter  # Usually comes with Python
+PyQt5==5.15.9  # Alternative GUI framework
+
+# Utilities and Configuration
+pyyaml==6.0.1
+tqdm==4.65.0
+pathlib2==2.3.7
+configargparse==1.7
+
+# Web Framework (for API/Dashboard)
+fastapi==0.101.1
+uvicorn==0.23.2
+streamlit==1.25.0
+
+# Data Handling
+h5py==3.9.0
+pickle-mixin==1.0.2
+
+# Performance and Optimization
+numba==0.57.1  # JIT compilation for faster numpy operations
+cython==3.0.0
+
+# Logging and Monitoring
+loguru==0.7.0
+psutil==5.9.5  # System monitoring
+
+# Hardware Interface (Optional - for real hardware integration)
+pyserial==3.5  # For Arduino/hardware communication
+RPi.GPIO==0.7.1  # For Raspberry Pi (if using)
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# Development Tools
+jupyter==1.0.0
+ipykernel==6.25.0
+black==23.7.0  # Code formatting
+flake8==6.0.0  # Code linting
+
+# Optional: Advanced Computer Vision Libraries
+# dlib==19.24.2  # For advanced facial recognition
+# mediapipe==0.10.3  # Google's ML solutions
+# supervision==0.12.0  # Computer vision utilities
+
+# Optional: ROS Integration (for robotics)
+# rospkg==1.5.0
+# rospy==1.16.0
+
+# Optional: Advanced Neural Networks
+# transformers==4.32.1  # Hugging Face transformers
+# segment-anything==1.0  # Meta's SAM model
+
+# Hardware Acceleration (Optional)
+# cupy-cuda11x==12.2.0  # CUDA acceleration for NumPy-like operations
+
+# Note: Some packages may require specific installation methods:
+# For detectron2: pip install 'git+https://github.com/facebookresearch/detectron2.git'
+# For GPU support: Ensure CUDA toolkit is installed first
+# For ARM devices (Raspberry Pi): Some packages may need compilation from source
